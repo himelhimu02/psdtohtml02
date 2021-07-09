@@ -1,0 +1,157 @@
+/* PlayfairDisplay font start*/
+@font-face {
+    font-family: Playfair_Display ;
+    src: url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: Playfair_Display ;
+    src: url(../fonts/Playfair_Display/PlayfairDisplay-Italic.ttf);
+}
+@font-face {
+    font-family: Playfair_Display ;
+    src: url(../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: Playfair_Display ;
+    src: url(../fonts/Playfair_Display/PlayfairDisplay-Black.ttf);
+}
+/* PlayfairDisplay font close/*
+/* ubuntu font start*/
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+/* ubuntu font close*/
+/*Inconsolata font start*/
+@font-face {
+    font-family: Inconsolata;
+    src: url(../fonts/Inconsolata/Inconsolata-Regular.ttf);
+}
+/* Inconsolata font close*/
+
+/*common start*/
+ body{
+     margin: 0;
+     padding: 0;
+     font-family: Playfair_Display ;
+     font size: 16px;
+     font-weight: 400;
+     color:#626262;
+ }
+/*common end*/
+
+
+/*header start*/
+header{
+    padding: 33px 0;
+
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+ 
+    overflow: hidden;
+}
+.logo{
+    margin-top: 13px;
+    width: 15%;
+ 
+    float: left;
+
+}
+.logo a{
+
+}
+.logo a img{
+   
+
+}
+.menu{
+    float: right;
+    width: 60%;
+    
+}
+.menu ul{
+float: right;
+list-style: none;
+}
+
+.menu ul li{
+float: left;
+list-style: none;
+
+}
+.menu ul li a{
+margin: 0 50px;
+text-decoration: none;
+text-transform: uppercase;
+display: inline-block;
+font-size: 16px;
+color: #626262;
+
+ 
+}
+
+.menu ul li a:hover{
+  
+}
+.menu ul li  a:last-child{
+  margin-right: 0;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+
+}
+.b_content{
+
+}
+.img{
+    width: 100%;
+}
+/*banner end*/
+
+/*GETAWAY START*/
+.getaway{
+    padding: 60px 0;
+
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.g_content{}
+
+.gpc1{
+    margin: 0;
+    font-family: Ubuntu-Light;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+.gh1{
+    margin: 0;
+    font-family: Playfair_Display ;
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+}
+.gpc2{
+ 
+    font-family: Playfair_Display;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    line-height: 25px;
+}
+.gconh2{
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+
+
+
+/*GETAWAY END*/
